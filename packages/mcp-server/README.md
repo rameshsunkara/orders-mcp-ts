@@ -9,8 +9,8 @@ It is generated with [Stainless](https://www.stainless.com/).
 Because it's not published yet, clone the repo and build it:
 
 ```sh
-git clone git@github.com:stainless-sdks/ordersapi-typescript.git
-cd ordersapi-typescript
+git clone git@github.com:rameshsunkara/orders-mcp-ts.git
+cd orders-mcp-ts
 ./scripts/bootstrap
 ./scripts/build
 ```
@@ -40,7 +40,7 @@ For clients with a configuration JSON, it might look something like this:
   "mcpServers": {
     "ordersapi_api": {
       "command": "node",
-      "args": ["/path/to/local/ordersapi-typescript/packages/mcp-server", "--client=claude", "--tools=all"],
+      "args": ["/path/to/local/orders-mcp-ts/packages/mcp-server", "--client=claude", "--tools=all"],
       "env": {
         "ORDERSAPI_API_KEY": "My API Key"
       }
