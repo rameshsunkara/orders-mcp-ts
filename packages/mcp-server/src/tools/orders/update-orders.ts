@@ -1,10 +1,9 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
 import { maybeFilter } from 'ordersapi-mcp/filtering';
-import { asTextContentResult } from 'ordersapi-mcp/tools/types';
+import { Metadata, asTextContentResult } from 'ordersapi-mcp/tools/types';
 
 import { Tool } from '@modelcontextprotocol/sdk/types.js';
-import type { Metadata } from '../';
 import Ordersapi from 'ordersapi';
 
 export const metadata: Metadata = {
