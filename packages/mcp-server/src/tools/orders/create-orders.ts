@@ -54,6 +54,7 @@ export const tool: Tool = {
     },
     required: ['products'],
   },
+  annotations: {},
 };
 
 export const handler = async (client: Ordersapi, args: Record<string, unknown> | undefined) => {

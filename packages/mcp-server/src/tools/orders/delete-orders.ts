@@ -33,6 +33,9 @@ export const tool: Tool = {
     },
     required: ['orderId'],
   },
+  annotations: {
+    idempotentHint: true,
+  },
 };
 
 export const handler = async (client: Ordersapi, args: Record<string, unknown> | undefined) => {
