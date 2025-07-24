@@ -34,6 +34,9 @@ export const tool: Tool = {
     },
     required: ['orderId'],
   },
+  annotations: {
+    readOnlyHint: true,
+  },
 };
 
 export const handler = async (client: Ordersapi, args: Record<string, unknown> | undefined) => {
