@@ -724,7 +724,9 @@ export class Ordersapi {
 
   orders: API.Orders = new API.Orders(this);
 }
+
 Ordersapi.Orders = Orders;
+
 export declare namespace Ordersapi {
   export type RequestOptions = Opts.RequestOptions;
 
